@@ -192,7 +192,7 @@ GATHER_TPU_BLOCKS_CALLS = Counter(
 )
 
 TRANSFER_AND_GEGISTER_CPU_CHUNKS_CALLS = Counter(
-    "vllm__transfer_and_register_cpu_chunks_calls_total",
+    "vllm_transfer_and_register_cpu_chunks_calls_total",
     "Total number of times _transfer_and_register_cpu_chunks has been called."
 )
 
