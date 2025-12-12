@@ -128,7 +128,7 @@ logger = init_logger(__name__)
 # kv cache layout needed by cpu offloading mechanism
 REQUIRED_KV_CACHE_LAYOUT = "NHD"
 
-BLOCK_SIZE_BUCKETS = [1, 2, 4, 8, 16]
+BLOCK_SIZE_BUCKETS = [1, 2, 4, 8, 16, 32, 64]
 
 # Prometheus metrics
 KV_CACHE_HITS = Counter("vllm_kv_offload_cache_hits",
